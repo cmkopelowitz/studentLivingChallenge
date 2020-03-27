@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<link rel="stylesheet" type="Text/css" href="Style for Spring.css">
+<img src="text.png" alt="studentlivingchallenge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+</head>
+<body>
+<button type="button" onclick="myFunction()">Get Challenge</button>
+
+<p id = "OUTPUT" style =
+"font-size: 25px; color:black; text-align: center; font-family:times;"
+
+
+</p> 
+
+<script>
+var arr = ["Tell someone why you admire them", "Message someone you haven't reached out to in a while","Email one of your teachers and tell them you are excited for the semester or thank them for their time", "Write a thank you note to someone","Ask someone about their hobbies","Learn about a trial someone has gone through that changed their life", "Clean up something in your living space", "Donate something", "Highlight someone on social media", "Call a loved one", "Pray for someone you have negative feelings for", "Dress up nice today", "Do something outside today", "Have a kneeling prayer today",];
+var put = document.getElementById('OUTPUT');
+
+function myFunction() {
+	put.innerHTML = arr[Math.floor(Math.random() * arr.length)]; 
+}
+</script>
+
+</body>
+</html>
