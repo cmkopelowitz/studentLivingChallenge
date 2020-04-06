@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- OpenGraph Markup for Facebook-->
+	<meta property="og:url" content="https://sites.google.com/view/byuislc/home" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="BYU-I Student Living Challenge" />
+	<meta property="og:description" content="Get a challenge and pass it along!" />
+	<meta property="og:image"
+		content="https://raw.githubusercontent.com/chickennugget21/Spring-Final/master/Spring%20Website/text.png" />
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		.header {
+			padding: 50px 50px 30px 50px;
+			background: #1abc9c;
+			color: white;
+		}
+
+		h1 {
+			margin-bottom: 40px;
+			font-size: 60px;
+		}
+
+		.sub-heading {
+			display: block;
+			margin: auto;
+			font-size: 30px;
+			max-width: 550px;
+		}
+
+		.custom.btn-lg {
+			font-size: 20px;
+			padding: 2rem 4rem;
+			font-weight: 700;
+		}
+	</style>
+
+	<title>Student Living Challenge</title>
+</head>
+
+<body class="text-center">
+
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous"
+		src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+
+
+	<div class="header container-fluid">
+		<h1>Student Living Challenge</h1>
+		<p class="sub-heading">Click below to get a challenge. Pass this card along and tag us on social
+			media<br>@byuistudentLiving</p>
+	</div>
+
+	<!-- <div class="container">
+		<img src="text.png" alt="text.png" class="mx-auto d-block">
+	</div> -->
+	<div class="row" id="getChallenge">
+		<div class="col container">
+			<button type="button" class="custom btn btn-lg btn-outline-dark mt-4 mx-auto d-block" id="btn-challenge">GET
+				CHALLENGE</button>
+		</div> <!-- /.col.container -->
+	</div> <!-- /.row -->
+
+	<div class="row mt-5" id="displayChallenge">
+		<div class="col container" style="max-width: 760px;">
+			<div class="text-center align-middle p-4" style="height: 6em;font-size:2em;" id="output">
+
+			</div>
+		</div> <!-- /.col.container -->
+	</div> <!--	/.row -->
+
+	<div class="fb-share-button" data-href="https://sites.google.com/view/byuislc/home" data-layout="button"
+		data-size="small"><a target="_blank"
+			href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsites.google.com%2Fview%2Fbyuislc%2Fhome&amp;src=sdkpreparse"
+			class="fb-xfbml-parse-ignore">Share</a></div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="./script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
