@@ -1,51 +1,27 @@
-body {
-	background-image: url("Backgroundspring2020.png")
+* {
+    box-sizing: border-box;
 }
-img {
-	display:block;
-	max-height:100%;
-	max-width:100%;
-	margin-left:auto;
-	margin-right:auto;
+
+.header {
+    padding: 50px 50px 30px 50px;
+    background: #1abc9c;
+    color: white;
 }
-button {
-      display: inline-block;
-      background-color: #DC143C;
-      border-radius: 10px;
-      border: 4px double #cccccc;
-      color: #eeeeee;
-      text-align: center;
-      font-size: 20px;
-      padding: 5px;
-      width: 170px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 5px;
-      display:block;
-	  margin-left:auto;
-	  margin-right:auto;
-      }
-      button span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-      }
-      button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-      }
-      button:hover {
-      background-color: #228B22;
-      }
-      button:hover span {
-      padding-right: 25px;
-      }
-      button:hover span:after {
-      opacity: 1;
-      right: 0;
-  }
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.sub-heading {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    max-width: 550px;
+}
+
+.custom.btn-lg {
+    font-size: 20px;
+    padding: 2rem 4rem;
+    font-weight: 700;
+}
