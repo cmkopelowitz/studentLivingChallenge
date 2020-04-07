@@ -10,6 +10,7 @@ body {
     padding: 50px 50px 30px 50px;
     background: #006EB6;
     color: white;
+    margin-bottom: 2em;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
 .sub-heading {
     display: block;
     margin: auto;
-    font-size: 30px;
+    font-size: 2em;
     max-width: 550px;
 }
 
@@ -28,4 +29,21 @@ h1 {
     font-size: 20px;
     padding: 1rem 4rem;
     font-weight: 700;
+}
+
+.custom.row {
+    margin-bottom: 3em;
+}
+
+footer {
+    padding: 20px;
+    font-size:1.25em;
+}
+
+#output {
+    max-width: 720px;
+    display: block;
+    margin:auto;
+    height: 2em;
+    font-size:2em;
 }

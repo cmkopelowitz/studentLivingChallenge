@@ -18,18 +18,10 @@ function getChallenge() {
 }
 
 $(document).ready(function () {
-	//$('#displayChallenge').hide();
-
 	$('#btn-challenge').click(() => {
-		//$('#getChallenge').hide();
 		$('#output').html(getChallenge()); 
-		//$('#displayChallenge').show();
+		
 	});
-
-	$('#anotherChallenge').click( ()=> {
-		$('#output').html(getChallenge());
-	});
-
 
 });
 
